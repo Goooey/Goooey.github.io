@@ -1,0 +1,327 @@
+/*George Derpanis
+March 14th 2024*/
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 50px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #6a6868;
+  border-radius: 50px;
+}
+
+.nav{
+  float: left;
+}
+
+.nav a{
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  padding-right: 105px;
+  padding-left: 118.90px;
+}
+
+p {
+  font-family: "Special Elite", sans-serif;
+  font-weight: 600;
+  font-style: normal
+}
+
+li a:hover {
+  background-color: #a62626;
+}
+
+body {
+  background: rgb(200, 192, 192);
+  background: linear-gradient(90deg, rgba(200, 192, 192, 1) 35%, rgba(255, 255, 255, 1) 70%);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Special Elite", sans-serif;
+  font-weight: 600px;
+  font-size: 50px;
+}
+h2 {
+  text-align: center;
+  font-family: "Special Elite", sans-serif;
+  font-weight: 600px;
+  font-size: 30px;
+}
+
+.Coolfont {
+  font-family: "Special Elite", sans-serif;
+  font-weight: 400px;
+  font-size: 15.35px;
+  padding-top: 9px;
+}
+
+#wiki {
+  padding-top: 6px;
+}
+
+.box {
+  background: rgb(200, 192, 192);
+  background: linear-gradient(90deg, rgba(200, 192, 192, 1) 35%, rgba(255, 255, 255, 1) 70%);
+  height: 90%;
+  width: auto;
+  position: relative;
+  margin-top: 20px;
+}
+
+.top-left {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  border-left: 5px solid #801919;
+  border-top: 5px solid #801919;
+  height: 30px;
+  width: 30px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: -10px;
+  left: 935px;
+  border-bottom: 5px solid #801919;
+  border-right: 5px solid #801919;
+  height: 30px;
+  width: 30px;
+
+}
+
+#post-2 .top-left {
+  position: absolute;
+  top: -10px;
+  left: 520px;
+  borderleft: 5px solid #801919;
+  border-top: 5px solid #801919;
+  height: 30px;
+  width: 30px;
+}
+
+#post-2 .bottom-right {
+  position: absolute;
+  bottom: -10px;
+  left: 1410px;
+  border-bottom: 5px solid #801919;
+  border-right: 5px solid #801919;
+  height: 30px;
+  width: 30px;
+
+}
+
+#post-3 .top-left {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  border-left: 5px solid #801919;
+  border-top: 5px solid #801919;
+  height: 30px;
+  width: 30px;
+}
+
+#post-3 .bottom-right {
+  position: absolute;
+  bottom: -10px;
+  left: 940px;
+  border-bottom: 5px solid #801919;
+  border-right: 5px solid #801919;
+  height: 30px;
+  width: 30px;
+}
+
+
+#post-1{
+  padding-left: 50px;
+}
+#post-2{
+  display: block;
+  margin-left: auto;
+  padding-left: 540px;
+}
+#post-3{
+  padding-left: 50px;
+}
+
+footer {
+  position: relative !important;
+  height: 50px;
+  width: 100%;
+  background-color: darkgray;
+}
+
+p.copyright {
+  position: absolute;
+  color: #d3d3d3;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align: left;
+  bottom:0;
+  padding-right: 10px;
+  font-size: 35px;
+}
+#getsmaller {
+  max-width: 97%;
+}
+
+.listleaders {
+  padding-left: 70px;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.section {
+   display: flex !important;
+   padding-bottom: 100px;
+}
+.lh-2 {
+  line-height: 2 !important;
+}
+
+body {
+  counter-reset: all;
+}
+
+
+.lst-element {
+  display: flex;
+}
+
+.lst-element::before {
+  counter-increment: all;
+  content: "" counter(all) ". ";
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+
+.section p {
+  
+}
+
+#george_v img {
+  margin-left: 100px;
+  float: left;
+  width: 500px !important;
+  height: 550px;
+  border: solid blue 2px;
+  margin-right: 100px;
+}
+
+#Wilhelm_II img {
+  margin-left: 100px;
+  float: left;
+  width: 550px !important;
+  height: 700px;
+  border: solid blue 2px;
+  margin-right: 100px;
+}
+#NicholasII img {
+  margin-left: 100px;
+  float: left;
+  width: 550px !important;
+  height: 800px;
+  border: solid blue 2px;
+  margin-right: 100px;
+}
+#FranzJosephI img {
+  margin-left: 100px;
+  float: left;
+  width: 550px !important;
+  height: 800px;
+  border: solid blue 2px;
+  margin-right: 100px;
+
+}
+
+.container {
+  display: flex !important;
+}
+
+
+#RobertBorden img {
+  margin-left: 100px;
+  float: left;
+  width: 550px !important;
+  height: 1000px;
+  border: solid blue 2px;
+  margin-right: 100px;
+}
+#Aftermath {
+  padding-left: 50px;
+  padding-right: 50;
+  font-size: 23px;
+}
+
+#people{
+  margin-left: 375px;
+  height: 350px;
+  width: 700px;
+  border: black solid 5px;
+}
+table {
+  font-family: 'Special Elite', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 3px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: light grey;
+}
+.battlehead a {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: maroon;
+  color: black;
+}
+table {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.Borden{
+  border: solid black 3px;
+  border-collapse: separate;
+  border-spacing: 6px 3px;
+  max-width: 1250px;
+  margin-left: 100px;
+  padding: 5px;
+}
+
+.Borden p {
+  line-height: 2;
+}
+.pics {
+  height: 700px;
+  width: 1000px;
+  margin-left: 225px;
+  border: solid black 4px;
+}
+span {
+  color: maroon;
+  text-emphasis: 2px;
+  background-color: yellow;
+}
+
+
